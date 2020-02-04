@@ -7,7 +7,7 @@ const bookmarksRouter = express.Router()
 const bodyParser = express.json()
 
 bookmarksRouter
-    .route('./bookmarks')
+    .route('/bookmarks')
     .get((req, res) => {
         res.json(store.bookmarks)
     })
