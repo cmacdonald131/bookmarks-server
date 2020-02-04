@@ -8,6 +8,7 @@ const validateBearerToken = require('./validateBearerToken')
 const errorHandler = require('./error-handler')
 const bookmarksRouter = require('./bookmarks/BookmarksRouter')
 
+
 const app = express()
 
 
